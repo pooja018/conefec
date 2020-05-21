@@ -1,5 +1,10 @@
-.header {
-    background-color: #1b3350;
-    height:250px;
-    width:100%;
+.menu-wrapper {
+    position: sticky;
+    top: 0px;
+    z-index: 900;
+    .menu-cont {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #eb5757;
+    }
 }
