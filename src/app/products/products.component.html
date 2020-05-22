@@ -1,0 +1,16 @@
+<div class="container-fluid products">
+    <div class="row products-topic">
+        <h1>{{topic}}</h1>
+    </div>
+    <div>
+        <div class="col-md-4">
+            <h6>{{shopByCategory}}</h6>
+            <ul class="list-group" *ngFor="let product of products" >
+                <li class="list-group-item" >{{product}}</li>                
+            </ul>
+        </div>
+        <div class="col-md-8">
+
+        </div>
+    </div>
+</div>
