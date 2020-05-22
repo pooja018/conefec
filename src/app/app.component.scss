@@ -8,3 +8,17 @@
         background-color: #eb5757;
     }
 }
+a {
+    color: #ffff;
+    &:hover{
+        inline-size: fit-content ;
+        color: #ffff !important;
+        background-color: black; 
+    }
+}
+.nav-pills .nav-link.active{
+    color: #ffff !important;
+    background-color: black;
+    inline-size: fit-content 
+
+}
