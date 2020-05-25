@@ -2,14 +2,24 @@
     <div class="row products-topic">
         <h1>{{topic}}</h1>
     </div>
-    <div>
+    <div class="row">
         <div class="col-md-4">
             <h6>{{shopByCategory}}</h6>
             <ul class="list-group" *ngFor="let product of products" >
-                <li class="list-group-item" >{{product}}</li>                
+                <li class="list-group-item" >
+                    <a href="#">
+                        {{product}}
+                    </a>
+                </li>                
             </ul>
         </div>
         <div class="col-md-8">
+            <div class="card">
+                <img class="card-img-top" src="" alt="candies">
+                <div class="card-body">
+                    <h4 class="card-title"></h4>
+                </div>
+            </div>
 
         </div>
     </div>
