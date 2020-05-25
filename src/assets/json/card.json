@@ -1,0 +1,15 @@
+{
+    "data" : [
+        {
+            "heading": "Contact Us",
+            "desc": "Just want to say hi? We'd love to hear from you. We love our customers and community!",
+            "link": "Send Us A Message"
+        },
+        {
+            "heading": "Get Support",
+            "desc": "Have an issue with an order or with a product you purchased from us? Fill out our support form.",
+            "link": "Contact Support"
+        }
+    ]
+}
+
