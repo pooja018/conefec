@@ -1,0 +1,50 @@
+.first-sec {
+    background-color: #222;
+    padding: 0px;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .head-cont {
+        color: #ffffff;
+        padding-top: 15px;
+    }
+}
+.card-body {
+    .contact-ico {
+        text-align: center;
+        color: #eb5757;
+    }
+    .txt-contact {
+        text-align: center;
+        color: #222 !important;
+    }
+    .card-txt-body {
+        text-align: center;
+    }
+    .link-btn {
+        justify-content: center;
+        .btn-secondary {
+            color: #fff;
+            border-color: #eb5757;
+            border-radius: 5px;
+            background-color: #eb5757;
+        }
+        .btn-secondary:hover {
+            background-color: #222;
+            background-color: #222;
+        }
+    }
+}
+.contact-cont {
+    height: auto;
+    .img-cont {
+        width: 100%;
+        height: 350px;
+        .cont-img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            opacity: 0.8;
+        }
+    }
+}
