@@ -10,15 +10,24 @@
 }
 a {
     color: #ffff;
-    &:hover{
-        inline-size: fit-content ;
+    &:hover {
+        inline-size: fit-content;
         color: #ffff !important;
-        background-color: black; 
+        background-color: black;
     }
 }
-.nav-pills .nav-link.active{
+.nav-pills .nav-link.active {
     color: #ffff !important;
     background-color: black;
-    inline-size: fit-content 
+    inline-size: fit-content;
+}
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    text-align: center;
 }
