@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProductsComponent } from './products/products.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardComponent } from './card/card.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,10 @@ import { CardComponent } from './card/card.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+  AgmCoreModule.forRoot({
+    apiKey: 'AIzaSyB3SgXq5RcTMULpst9xuxTgXdvuTPv_zGc'
+  })
   ],
   providers: [],
   bootstrap: [AppComponent]
