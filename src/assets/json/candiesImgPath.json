@@ -1,0 +1,34 @@
+{
+    "candies" :[
+        {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy2.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy3.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy2.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy3.jpg", "title": "Coconut"}
+       ],
+       "bakery" :[
+        {"path":"../../assets/images/bakery1.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/bakery2.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/bakery3.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/bakery1.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/bakery2.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/bakery3.jpg", "title": "Coconut"}
+       ],
+       "sweets" :[
+        {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy2.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy3.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy2.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy3.jpg", "title": "Coconut"}
+       ],
+       "namkeens" :[
+        {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy2.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy3.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy2.jpg", "title": "Coconut"},
+        {"path":"../../assets/images/candy3.jpg", "title": "Coconut"}
+       ]
+}
