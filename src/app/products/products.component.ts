@@ -14,6 +14,7 @@ export class ProductsComponent implements OnInit {
   bakeryImgPath = productImgPath.bakery;
   sweetsImgPath = productImgPath.sweets;
   namkeensImgPath = productImgPath.namkeens;
+  productPath = [];
   productToDisplay: string;
   constructor() { }
 
@@ -21,8 +22,12 @@ export class ProductsComponent implements OnInit {
   }
   displayProduct(e) {
     this.productToDisplay = e.target.innerText;
-    console.log(this.productToDisplay)
-    console.log(this.productToDisplay === 'Bakery Items')
+    switch (this.productToDisplay) {
+      case 'Candies' : this.productPath = this.candiesImgPath; break;
+      case 'Bakery Items' : this.productPath = this.bakeryImgPath; break;
+      case 'sweets' : this.productPath = this.sweetsImgPath; break;
+      case 'namkeens' : this.productPath = this.namkeensImgPath; break;
+    }
   }
 
 }
