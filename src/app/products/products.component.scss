@@ -1,5 +1,6 @@
 .products {
     padding: 0 !important;
+    margin-bottom: 66px;
 }
 .products-topic{
     background-color: black;
@@ -11,17 +12,10 @@
 .list-group-item{    
     border:1px solid black !important;
     margin: 7px 0;
-    // a {
-    //     color: black;
-    //     text-decoration: none;
-    //     &:hover{
-    //         color: #ffff;
-    //     }
-    // }
     &:hover{ 
         background-color: black;       
         color: #ffff;
-       
+        cursor: pointer;       
     }
 }
 .card {

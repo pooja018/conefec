@@ -1,11 +1,11 @@
 {
     "candies" :[
-        {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},
-        {"path":"../../assets/images/candy2.jpg", "title": "Coconut"},
-        {"path":"../../assets/images/candy3.jpg", "title": "Coconut"},
-        {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},
-        {"path":"../../assets/images/candy2.jpg", "title": "Coconut"},
-        {"path":"../../assets/images/candy3.jpg", "title": "Coconut"}
+        {"path":"../../assets/images/candy1.jpg", "title": "Peanut Butter"},
+        {"path":"../../assets/images/candy2.jpg", "title": "Razzles"},
+        {"path":"../../assets/images/candy3.jpg", "title": "Super Fruit"},
+        {"path":"../../assets/images/candy4.jpg", "title": "Skittles"},
+        {"path":"../../assets/images/candy5.jpg", "title": "Gum Candies"},
+        {"path":"../../assets/images/candy3.jpg", "title": "Super Fruit"}
        ],
        "bakery" :[
         {"path":"../../assets/images/bakery1.jpg", "title": "Coconut"},
@@ -16,12 +16,9 @@
         {"path":"../../assets/images/bakery3.jpg", "title": "Coconut"}
        ],
        "sweets" :[
-        {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},
-        {"path":"../../assets/images/candy2.jpg", "title": "Coconut"},
-        {"path":"../../assets/images/candy3.jpg", "title": "Coconut"},
-        {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},
-        {"path":"../../assets/images/candy2.jpg", "title": "Coconut"},
-        {"path":"../../assets/images/candy3.jpg", "title": "Coconut"}
+        {"path":"../../assets/images/nariyalBarfi.jpg", "title": "Nariyal Barfi"},
+        {"path":"../../assets/images/mawaBarfi.jpg", "title": "Mawa Barfi"},
+        {"path":"../../assets/images/besanBarfi.jpg", "title": "Besan Barfi"}
        ],
        "namkeens" :[
         {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},

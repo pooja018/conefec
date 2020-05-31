@@ -1,7 +1,8 @@
 .main-container{
     position: relative;
-    height: 100%;
-    overflow-x: hidden
+    // height: 100vh;
+    overflow-x: hidden;
+    // overflow-y: hidden;
 }
 .menu-wrapper {
     position: sticky;
@@ -28,10 +29,10 @@ a {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    // position: absolute;
+    // bottom: 0;
     width: 100%;
-    height: calc(100vh - 90vh);
+    // height: calc(100vh - 90vh);
     background-color: #222;
     color: white;
     text-align: center;
