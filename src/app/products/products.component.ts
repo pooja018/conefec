@@ -14,8 +14,9 @@ export class ProductsComponent implements OnInit {
   bakeryImgPath = productImgPath.bakery;
   sweetsImgPath = productImgPath.sweets;
   namkeensImgPath = productImgPath.namkeens;
-  productPath = [];
-  productToDisplay: string;
+  defaultpath = productImgPath.default;
+  productPath = this.defaultpath;
+  productToDisplay = 'default';
   constructor() { }
 
   ngOnInit(): void {
@@ -27,6 +28,7 @@ export class ProductsComponent implements OnInit {
       case 'Bakery Items' : this.productPath = this.bakeryImgPath; break;
       case 'sweets' : this.productPath = this.sweetsImgPath; break;
       case 'namkeens' : this.productPath = this.namkeensImgPath; break;
+      case 'default' : this.productPath = this.defaultpath;
     }
   }
 
