@@ -1,10 +1,10 @@
 <div class="container-fluid products">
     <div class="row products-topic">
-        <h1>{{topic}}</h1>
+        <h3>{{topic}}</h3>
     </div>
     <div class="row">
         <div class="col-md-2">
-            <h6>{{shopByCategory}}</h6>
+            <h6><strong>{{shopByCategory}}</strong></h6>
             <ul class="list-group" *ngFor="let product of products" >
                 <li class="list-group-item" (click)="displayProduct($event)">                     
                         {{product}}                   

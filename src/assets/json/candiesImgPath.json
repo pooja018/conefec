@@ -27,5 +27,10 @@
         {"path":"../../assets/images/candy1.jpg", "title": "Coconut"},
         {"path":"../../assets/images/candy2.jpg", "title": "Coconut"},
         {"path":"../../assets/images/candy3.jpg", "title": "Coconut"}
-       ]
+       ],
+       "default" : [
+            {"path":"../../assets/images/candy4.jpg", "title": "Skittles"},
+           {"path": "../../assets/images/nariyalBarfi.jpg"},
+           {"path":"../../assets/images/bakery2.jpg", "title": "Coconut"}
+        ]
 }
